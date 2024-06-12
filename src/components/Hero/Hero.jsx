@@ -6,9 +6,9 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
         <div className={styles.content}>
-            <h1 className={styles.title}> Hi, I'm Troy </h1>
+            <h1 className={styles.title}> Hi, I&apos;m Troy! </h1>
             <p className={styles.desc}>
-            Hi! I'm Gerard Vito J. Belardo, but you can call me Troy. 
+            Hi! I&apos;m Gerard Vito J. Belardo, but you can call me Troy. 
             I am currently pursuing a degree in Computer Science, majoring in Software Technology, 
             at De La Salle University (ID122).
             </p>
