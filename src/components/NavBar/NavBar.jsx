@@ -27,6 +27,17 @@ export const NavBar = () => {
         });
     };
 
+    const scrollToSection = (event, sectionId) => {
+        event.preventDefault();
+        const element = document.querySelector(sectionId);
+        if (element) {
+            const yOffset = -document.querySelector(`.${styles.navbar}`).offsetHeight - 50;
+            const yPosition = element.getBoundingClientRect().top + window.scrollY + yOffset;
+            window.scrollTo({ top: yPosition, behavior: 'smooth' });
+        }
+        setMenuOpen(false);
+    };
+
     return (
         <>{menuOpen && <div className={styles.overlay} onClick={() => setMenuOpen(false)}></div>}
 
@@ -40,18 +51,18 @@ export const NavBar = () => {
                     alt="Menu-Button"
                 />
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#experience">Experience</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+                <li>
+                            <a href="#about" onClick={(e) => scrollToSection(e, '#about')}>About</a>
+                        </li>
+                        <li>
+                            <a href="#experience" onClick={(e) => scrollToSection(e, '#experience')}>Experience</a>
+                        </li>
+                        <li>
+                            <a href="#projects" onClick={(e) => scrollToSection(e, '#projects')}>Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact" onClick={(e) => scrollToSection(e, '#contact')}>Contact</a>
+                        </li>
                 </ul>
             </div>
         </nav>

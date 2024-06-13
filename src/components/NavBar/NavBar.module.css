@@ -20,7 +20,7 @@
     right: 0;
     padding: 15px 10%; /* Adjust padding to create space */
     margin: 0 0%;
-    background-color: darkcyan;
+    background-color: rgba(74, 216, 255, 0.1);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
