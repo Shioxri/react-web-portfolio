@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+    },
+    {
+        "title": "C",
+        "imageSrc": "skills/c.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "Ruby",
+        "imageSrc": "skills/ruby.png"
+    },
+    {
+        "title": "Kotlin",
+        "imageSrc": "skills/kotlin.png"
+    },
+    {
+      "title": "Node.js",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/graphql.png"
+    },
+    {
+      "title": "MongoDB/Mongoose",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    },
+    {
+        "title": "jQuery",
+        "imageSrc": "skills/c.png"
+    },
+    {
+        "title": "Ajax",
+        "imageSrc": "skills/c.png"
+    },
+    {
+        "title": "Handlebars",
+        "imageSrc": "skills/c.png"
+    },
+    {
+        "title": "Git/GitHub",
+        "imageSrc": "skills/c.png"
+    }
+  ]
