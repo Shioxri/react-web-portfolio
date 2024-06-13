@@ -20,10 +20,18 @@ export const NavBar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
 
     return (
+        <>{menuOpen && <div className={styles.overlay} onClick={() => setMenuOpen(false)}></div>}
+
         <nav className={`${styles.navbar} ${isFixed ? styles.fixed : ''}`}>
-            <a className={styles.title} href="/"> My Portfolio </a>
+        <a className={styles.title} href="#" onClick={scrollToTop}>My Portfolio</a>
             <div className={styles.menu}>
                 <img
                     className={styles.menuBtn}
@@ -47,5 +55,6 @@ export const NavBar = () => {
                 </ul>
             </div>
         </nav>
+        </>
     );
 };
