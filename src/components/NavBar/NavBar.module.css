@@ -8,6 +8,20 @@
     padding-top: 60px;
     z-index: 2;
     margin: 0 10%;
+    transition: all 0.3s ease; /* Smooth transition for position change */
+ 
+
+}
+
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 10%; /* Adjust padding to create space */
+    margin: 0 0%;
+    background-color: darkcyan;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .title{
