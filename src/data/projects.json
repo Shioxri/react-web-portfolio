@@ -24,7 +24,7 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
+    "title": "Project 1",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
@@ -32,7 +32,7 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
+    "title": "Project 2",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
@@ -40,7 +40,7 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
+    "title": "Project 3",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
@@ -48,7 +48,7 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
+    "title": "Project 4",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
