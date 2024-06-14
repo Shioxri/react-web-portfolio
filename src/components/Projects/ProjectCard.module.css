@@ -9,6 +9,8 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  flex: 0 0 auto; /* Ensure each card does not grow */
+  margin-right: 15px; /* Optional: margin between cards */
 }
 
 .image {

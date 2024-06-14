@@ -15,13 +15,13 @@
 }
 
 .projects {
-    margin-top: 35px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
-  }
+  margin-top: 35px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to new lines */
+  gap: 15px;
+  padding-bottom: 15px; /* Optional: add padding at bottom */
+  -webkit-overflow-scrolling: touch; /* Optional: smooth scrolling on iOS */
+}
+
   
