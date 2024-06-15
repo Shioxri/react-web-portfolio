@@ -27,7 +27,7 @@ export const Experience = () => {
   )
 }
 
-/* Just add after you have work experience
+/* Just add after you have work experience   //add mongoose, hbs, ajax
             
             <ul className={styles.history}>
           {history.map((historyItem, id) => {

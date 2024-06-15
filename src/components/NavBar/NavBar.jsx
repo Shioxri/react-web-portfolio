@@ -31,7 +31,7 @@ export const NavBar = () => {
         event.preventDefault();
         const element = document.querySelector(sectionId);
         if (element) {
-            const yOffset = -document.querySelector(`.${styles.navbar}`).offsetHeight - 50;
+            const yOffset = -document.querySelector(`.${styles.navbar}`).offsetHeight - 30;
             const yPosition = element.getBoundingClientRect().top + window.scrollY + yOffset;
             window.scrollTo({ top: yPosition, behavior: 'smooth' });
         }

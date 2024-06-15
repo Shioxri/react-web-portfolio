@@ -44,7 +44,7 @@
       "imageSrc": "skills/sql.png"
     },
     {
-      "title": "MongoDB/Mongoose",
+      "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
     },
     {
@@ -56,3 +56,4 @@
         "imageSrc": "skills/git.png"
     }
   ]
+

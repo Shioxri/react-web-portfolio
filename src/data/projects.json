@@ -1,11 +1,11 @@
 [
   {
-    "title": "Project A",
+    "title": "Java Vending Machine",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Project for CCPROG3, a vending machine application with functionalities like buying, restocking, adding items",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Shioxri/CCPROG3-Machine-Project"
   },
   {
     "title": "Project B",
@@ -13,7 +13,7 @@
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node", "Sass"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Shioxri/CSADPRG-MP"
   },
   {
     "title": "Project C",
