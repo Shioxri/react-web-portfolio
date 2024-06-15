@@ -1,22 +1,30 @@
 [
   {
-    "title": "Java Vending Machine",
+    "title": "Java Fruit & Shake Vending Machine",
     "imageSrc": "projects/project.png",
     "description": "Project for CCPROG3, a vending machine application with functionalities like buying, restocking, adding items",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["Java", "JavaSwing"],
     "demo": "https://www.example.com",
     "source": "https://github.com/Shioxri/CCPROG3-Machine-Project"
   },
   {
-    "title": "Project B",
+    "title": "Anime Forum Website - Fanime",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Mongoose", "MongoDB Atlas", "Handlebars"],
     "demo": "https://www.example.com",
     "source": "https://github.com/Shioxri/CSADPRG-MP"
   },
   {
-    "title": "Project C",
+    "title": "Ruby Payroll Application System",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Ruby"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Culinary Class/Training Management Database App",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
@@ -24,7 +32,7 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Project 1",
+    "title": "Sokobot - Puzzle Solver",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
@@ -32,7 +40,7 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Project 2",
+    "title": "Chatbot - Family Tree",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
@@ -40,7 +48,7 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Project 3",
+    "title": "Milk Quality Research",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
@@ -48,7 +56,23 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Project 4",
+    "title": "CCDSALG 1",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "CCDSALG 2",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Simple Python Budget App",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],

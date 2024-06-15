@@ -41,7 +41,7 @@
     text-align: justify;
 }
 
-.contactBtn{
+.contactBtn, .downloadBtn{
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
@@ -50,6 +50,7 @@
     font-weight: 600;
     padding: 15px 25px;
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    text-align: center;
 }
 
 .heroImg{
@@ -102,6 +103,13 @@
     z-index: 0;
 }
 
+.buttons{
+    gap:50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 830px){
     .container{
         flex-direction: column-reverse;
@@ -122,5 +130,8 @@
     .heroImg{
         margin-top: 30px;
         width: 60%;
+    }
+    .buttons{
+        flex-direction: column;
     }
 }
