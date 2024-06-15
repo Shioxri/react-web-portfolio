@@ -33,12 +33,17 @@ export const Projects = () => {
         const container = scrollRef.current;
         if (!container) return;
         
+
+        const margin = 25; // Adjust this value based on your card's CSS margin
         const children = Array.from(container.children);
-        const distances = children.map(child => Math.abs(child.offsetLeft - container.scrollLeft));
+        const distances = children.map(child => Math.abs(child.offsetLeft - container.scrollLeft - margin));
         const closestChild = children[distances.indexOf(Math.min(...distances))];
+    
+        // Adjust the scroll position to snap just outside the card's margin
+        const offset = closestChild.offsetLeft - margin;
         
         container.scrollTo({
-            left: closestChild.offsetLeft,
+            left: offset,
             behavior: 'smooth'
         });
     };
