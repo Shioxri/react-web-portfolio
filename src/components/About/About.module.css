@@ -74,6 +74,11 @@
     margin:20px;
     margin-right: 50px;
 }
+
+.orgsList{
+    margin-left: 40px;
+    font-size: smaller;
+}
 @media screen and (max-width: 830px) {
     .container{
         background-color: transparent;

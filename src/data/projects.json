@@ -4,7 +4,6 @@
     "imageSrc": "projects/project.png",
     "description": "Project for CCPROG3, a vending machine application with functionalities like buying, restocking, adding items",
     "skills": ["Java", "JavaSwing"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/Shioxri/CCPROG3-Machine-Project"
   },
   {
@@ -12,7 +11,6 @@
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Mongoose", "MongoDB Atlas", "Handlebars"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/Shioxri/CSADPRG-MP"
   },
   {
@@ -20,63 +18,55 @@
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["Ruby"],
-    "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
     "title": "Culinary Class/Training Management Database App",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "skills": ["SQL", "Java", "HTML", "CSS"],
     "source": "https://www.github.com"
   },
   {
     "title": "Sokobot - Puzzle Solver",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "skills": ["Java"],
     "source": "https://www.github.com"
   },
   {
     "title": "Chatbot - Family Tree",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "skills": ["Python", "Prolog"],
     "source": "https://www.github.com"
   },
   {
     "title": "Milk Quality Research",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "skills": ["Python"],
     "source": "https://www.github.com"
   },
   {
     "title": "CCDSALG 1",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "skills": ["Java"],
     "source": "https://www.github.com"
   },
   {
     "title": "CCDSALG 2",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "skills": ["Java"],
     "source": "https://www.github.com"
   },
   {
     "title": "Simple Python Budget App",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "skills": ["Python"],
     "source": "https://www.github.com"
   }
 ]
