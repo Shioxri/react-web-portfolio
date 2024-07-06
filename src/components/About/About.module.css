@@ -66,13 +66,32 @@
     font-size: 25px;
     text-align: justify;
 }
+.aboutItemContainer{
+  
+    margin-right: 50px;
+    padding:20px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+   
+}
 
+
+
+.aboutItemContainer:hover {
+    transform: scale(1.1);
+    background: radial-gradient(circle at center, rgba(21, 255, 76, 0.7) 30%, rgba(0,255,0,0) 70%);
+
+}
+
+
+.aboutItemContainer:active {
+    background: radial-gradient(circle at center, rgba(13, 251, 255, 0.885) 30%, rgba(0,255,0,0) 70%);
+
+}
 
 .aboutItemLogo{
     width: 70px;
     height: 70px;
-    margin:20px;
-    margin-right: 50px;
+   
 }
 
 .orgsList{
@@ -98,12 +117,17 @@
 
     .aboutItems{
         margin-top: 30px;
+        margin-left: 0px;
     }
-
     .aboutItem{
-      
-        padding-left: 0;
-        padding-right: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+ 
+    .aboutItemContainer {
+        background: radial-gradient(circle at center, rgba(21, 255, 76, 0.719) 30%, rgba(0,255,0,0) 70%);
+        padding:30px;
+        margin-right: 0px;
     }
 
 }

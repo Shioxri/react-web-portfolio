@@ -9,7 +9,11 @@ export const About = () => {
             <img className={styles.aboutImg} src={getImageUrl("about/abt1.png")} alt="About Me Image" />
           <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-          <img src={getImageUrl("about/ci.png")} className={styles.aboutItemLogo} alt="Cavite Institute Logo"  />
+          <div className={styles.aboutItemContainer}>
+            <a href="http://www.caviteinstitute.edu.ph" target="_blank" rel="noopener noreferrer">
+              <img src={getImageUrl("about/ci.png")} className={styles.aboutItemLogo} alt="Cavite Institute Logo" />
+            </a>
+          </div>
           <div className={styles.aboutItemText}>
             <h3>Cavite Institute - Elisea School of Creative Learning</h3>
             <ul>
@@ -23,7 +27,11 @@ export const About = () => {
           </div>
           </li>
           <li className={styles.aboutItem}>
-          <img src={getImageUrl("about/DLSU-LOGO.png")} className={styles.aboutItemLogo}  alt="DLSU Logo" />
+          <div className={styles.aboutItemContainer}>
+          <a href="https://www.dlsu.edu.ph" target="_blank" rel="noopener noreferrer">
+            <img src={getImageUrl("about/DLSU-LOGO.png")} className={styles.aboutItemLogo}  alt="DLSU Logo" />
+          </a>
+          </div>
           <div className={styles.aboutItemText}>
             <h3>De La Salle University Manila</h3>
             <ul>
