@@ -17,16 +17,32 @@ export const Projects = () => {
             <div className={styles.projects}>
             <Swiper
                     slidesPerView={3}
-                    spaceBetween={30}
+                    spaceBetween={55}
                     loop={true}
                     centeredSlides={true}
                     grabCursor={true}
                     pagination={{
                     clickable: true,
+                    dynamicBullets: true,
                     }}
                     navigation={true}
+                    breakpoints={{
+                        0: {
+                            slidesPerView: 1,
+                        },
+                        520: {
+                            slidesPerView: 2,
+                     
+                        },
+                        950: {
+                            slidesPerView: 3,               
+                        }
+                    }}
+        
+
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
+                  
             >
            
                     {projects.map((project, id) => (

@@ -18,13 +18,5 @@
   margin-top: 35px;
   overflow-x: auto;
   display: flex;
-  flex-wrap: nowrap;
-  gap: 51px;
-  justify-content: space-around;
   padding-bottom: 15px;
-}
-
-.swiper {
-  width: 600px;
-  height: 300px;
 }
