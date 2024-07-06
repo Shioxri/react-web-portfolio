@@ -41,12 +41,10 @@ export const About = () => {
               <li>3.5 CGPA</li>
               <li>DOST MERIT Scholar</li>
                   Organizations
-                  <ul className={styles.orgsList}>
-                  <t>
+                  <ul className={styles.orgsList}>           
                       <li>LSCS</li>
                       <li>GAS</li>
                       <li>NKK</li>
-                      </t>
                   </ul>
           </ul>
           </div>
