@@ -17,7 +17,7 @@ export const Projects = () => {
             <div className={styles.projects}>
             <Swiper
                     slidesPerView={3}
-                    spaceBetween={55}
+      
                     loop={true}
                     centeredSlides={true}
                     grabCursor={true}
@@ -41,7 +41,7 @@ export const Projects = () => {
         
 
                     modules={[Pagination, Navigation]}
-                    className="mySwiper"
+                    className={styles.swiper}
                   
             >
            

@@ -9,7 +9,7 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 310px;
-  margin: 0px 25px;
+  margin: 0 auto;
 }
 
 .image {
@@ -19,12 +19,18 @@
 .title {
   font-size: 25px;
   font-weight: 700;
+  background-color: green;
+  height:70px;
+  overflow: hidden;
 }
 
 .desc {
-  margin-top: 5px;
-  font-size: 25px;
+  margin-top: 10px;
+  font-size: 18px;
   font-weight: 400;
+  background-color: red;
+  overflow: auto;
+  height:85px;
 }
 
 .skills {
@@ -32,13 +38,18 @@
   margin-top: 15px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 5px;
+  align-items: center;
+  gap: 15px;
   list-style: none;
+  background-color: violet;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height:50px;
 }
 
 .skill {
   font-size: 25px;
+  height: 40px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
