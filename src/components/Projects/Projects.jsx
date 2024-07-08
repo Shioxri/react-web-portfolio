@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import styles from "./Projects.module.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -28,14 +28,14 @@ export const Projects = () => {
                     navigation={true}
                     breakpoints={{
                         0: {
-                            slidesPerView: 1,
+                            slidesPerView: 1,                    
                         },
-                        520: {
-                            slidesPerView: 2,
-                     
+                        1000: {
+                            slidesPerView: 2,   
+                            centeredSlides: false,          
                         },
-                        950: {
-                            slidesPerView: 3,               
+                        1400:{
+                            slidesPerView: 3, 
                         }
                     }}
         

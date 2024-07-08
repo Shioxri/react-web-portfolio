@@ -1,8 +1,8 @@
 .container {
   margin-top: 75px;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 9%;
+  margin-right: 9%;
   position: relative;
   overflow: hidden;
 }
@@ -19,15 +19,6 @@
   overflow-x: auto;
   display: flex;
   padding-bottom: 15px;
-  background: blue;
+  height: 80%;
 }
 
-
-.swiper{
-  background: red;
-}
-
-.swiper-container {
-  position: relative;
-  z-index: 1; /* Ensure it's above other elements */
-}
