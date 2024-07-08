@@ -17,7 +17,11 @@ export const Hero = () => {
             I am committed to continuous learning, enhancing productivity, 
             and making meaningful contributions to the tech industry.
             </p>
-            <a className={styles.contactBtn} href="mailto:gv.belardo@gmail.com">Contact Me</a>
+            <div className={styles.buttons}>
+                <a className={styles.contactBtn} href="mailto:gv.belardo@gmail.com">Contact Me</a>
+                <a className={styles.downloadBtn} href="mailto:gv.belardo@gmail.com">Download CV</a>
+            </div>
+
         </div>
         <img className={styles.heroImg} src={getImageUrl("hero/heroImg.png")} alt="Profile Picture" />
         <div className={styles.topBlur} />

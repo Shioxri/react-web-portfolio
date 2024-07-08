@@ -1,19 +1,19 @@
 //import React from 'react'
 import skills from "../../data/skills.json";
-import history from "../../data/history.json";
+//import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
 import styles from "./Experience.module.css"
 export const Experience = () => {
   return (
     <section id="experience" className={styles.container}>
-        <h2 className={styles.title}>Experience</h2>
+        <h2 className={styles.title}>Skills</h2>
         <div className={styles.content}>
             <div className={styles.skills}>{
                     skills.map((skill,id) => {
                        return (
                         <div key={id}>
                         <div className={styles.skillImgContainer}>
-                            <img src={getImageUrl(skill.imageSrc) } alt={skill.Title}/>
+                            <img className={styles.skillImg} src={getImageUrl(skill.imageSrc) } alt={skill.Title}/>
                             <p>{skill.title}</p>
 
                         </div>
@@ -22,6 +22,13 @@ export const Experience = () => {
                     })
             }
             </div>
+        </div>
+    </section>
+  )
+}
+
+/* Just add after you have work experience   //add mongoose, hbs, ajax
+            
             <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
@@ -43,7 +50,4 @@ export const Experience = () => {
             );
           })}
             </ul>
-        </div>
-    </section>
-  )
-}
+*/

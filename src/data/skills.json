@@ -41,10 +41,10 @@
     },
     {
       "title": "SQL",
-      "imageSrc": "skills/graphql.png"
+      "imageSrc": "skills/sql.png"
     },
     {
-      "title": "MongoDB/Mongoose",
+      "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
     },
     {
@@ -52,19 +52,8 @@
       "imageSrc": "skills/figma.png"
     },
     {
-        "title": "jQuery",
-        "imageSrc": "skills/c.png"
-    },
-    {
-        "title": "Ajax",
-        "imageSrc": "skills/c.png"
-    },
-    {
-        "title": "Handlebars",
-        "imageSrc": "skills/c.png"
-    },
-    {
         "title": "Git/GitHub",
-        "imageSrc": "skills/c.png"
+        "imageSrc": "skills/git.png"
     }
   ]
+
