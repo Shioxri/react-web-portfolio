@@ -19,7 +19,7 @@ export const Hero = () => {
             </p>
             <div className={styles.buttons}>
                 <a className={styles.contactBtn} href="mailto:gv.belardo@gmail.com">Contact Me</a>
-                <a className={styles.downloadBtn} href={getImageUrl("hero/GVB_Portfolio.pdf")} download="GVB's Portfolio"> Download CV</a>
+                <a className={styles.downloadBtn} href={getImageUrl("hero/GVB_Portfolio.pdf")} download="GVB's Portfolio.pdf"> Download CV</a>
             </div>
 
         </div>
