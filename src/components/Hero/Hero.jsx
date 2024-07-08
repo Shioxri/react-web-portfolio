@@ -3,6 +3,7 @@ import { getImageUrl } from '../../utils'
 import styles from "./Hero.module.css"
 
 export const Hero = () => {
+  const pdfUrl = "./GVB_Portfolio.pdf";
   return (
     <section className={styles.container}>
         <div className={styles.content}>
@@ -19,7 +20,7 @@ export const Hero = () => {
             </p>
             <div className={styles.buttons}>
                 <a className={styles.contactBtn} href="mailto:gv.belardo@gmail.com">Contact Me</a>
-                <a className={styles.downloadBtn} href="mailto:gv.belardo@gmail.com">Download CV</a>
+                <a className={styles.downloadBtn} href={pdfUrl} download value="GVB Portfolio"> Download CV</a>
             </div>
 
         </div>
