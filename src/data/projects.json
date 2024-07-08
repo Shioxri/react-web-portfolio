@@ -2,7 +2,7 @@
   {
     "title": "Java Fruit & Shake Vending Machine",
     "imageSrc": "projects/project.png",
-    "description": "Project for CCPROG3, a vending machine application with functionalities like buying, restocking, adding items",
+    "description": "Project for CCPROG3, a vending machine application with functionalities like buying, restocking, and adding items",
     "skills": ["Java", "JavaSwing"],
     "source": "https://github.com/Shioxri/CCPROG3-Machine-Project"
   },
