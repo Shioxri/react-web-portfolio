@@ -59,7 +59,7 @@
 }
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 850px) {
     .navbar{
         flex-direction: row;
         align-items: center;
