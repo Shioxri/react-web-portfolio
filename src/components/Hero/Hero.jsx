@@ -3,7 +3,7 @@ import { getImageUrl } from '../../utils'
 import styles from "./Hero.module.css"
 
 export const Hero = () => {
-  const pdfUrl = "./GVB_Portfolio.pdf";
+  const pdfUrl = "GVB_Portfolio.pdf";
   return (
     <section className={styles.container}>
         <div className={styles.content}>
