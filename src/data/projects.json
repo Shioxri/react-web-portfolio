@@ -2,7 +2,7 @@
   {
     "title": "Java Fruit & Shake Vending Machine",
     "imageSrc": "projects/vendingmachine.png",
-    "description": "Project for CCPROG3, a vending machine application with functionalities like buying, restocking, and adding items",
+    "description": "A vending machine applicationdeveloped with features such as purchasing items, restocking inventory, adding new items, and an integrated graphical user interface (GUI).",
     "skills": ["Java", "JavaSwing"],
     "source": "https://github.com/Shioxri/CCPROG3-Machine-Project"
   },
@@ -16,7 +16,7 @@
   {
     "title": "Ruby Payroll Application System",
     "imageSrc": "projects/rubyimg.png",
-    "description": "The Weekly Payroll System, built in Ruby, helps manage payroll by letting users set and update default settings, then generate daily and weekly salary reports based on employee work hours and day types. It accurately calculates regular, night shift, and overtime pay.",
+    "description": "The Weekly Payroll System, built in Ruby, simulates payroll management with features like letting users generate daily and weekly salary reports based on employee work hours and day types. It accurately calculates regular, night shift, and overtime pay.",
     "skills": ["Ruby"],
     "source": "https://github.com/Shioxri/CSADPRG-MP"
   },
@@ -30,7 +30,7 @@
   {
     "title": "Java Sorting Algorithms",
     "imageSrc": "projects/javasort.png",
-    "description": "This project evaluates the performance of Insertion Sort, Selection Sort, Merge Sort, and Quick Sort in Java, analyzing their complexity, efficiency, and sensitivity to different sample sizes, and presents the implementation process, experimental observations, and key findings supported by theoretical knowledge.",
+    "description": "This project involves implementing and comparing four distinct sorting algorithms: Insertion Sort, Selection Sort, Merge Sort, and Quick Sort. It aims to analyze their performance using a sizable dataset by measuring and comparing their respective sorting times.",
     "skills": ["Java"],
     "source": "https://github.com/Shioxri/CCDSALG-MCO1"
   },
@@ -44,8 +44,8 @@
   {
     "title": "Simple Python Budget App",
     "imageSrc": "projects/pypypy.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A simple budgeting app where I wanted to test and learn the basics of Python",
     "skills": ["Python"],
-    "source": "https://www.github.com"
+    "source": "https://github.com/Shioxri/Simple-Python-Budgeting-App"
   }
 ]
