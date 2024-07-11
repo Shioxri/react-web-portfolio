@@ -54,6 +54,11 @@
     max-width: 75px !important;
     max-height: 75px !important;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.skillImgContainer:hover .skillImg {
+  transform: scale(1.2); 
 }
 
 .skill p{
