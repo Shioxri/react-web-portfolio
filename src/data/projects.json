@@ -11,56 +11,35 @@
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Mongoose", "MongoDB Atlas", "Handlebars"],
-    "source": "https://github.com/Shioxri/CSADPRG-MP"
+    "source": "https://github.com/mark-edison-jim/Fanime"
   },
   {
     "title": "Ruby Payroll Application System",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "The Weekly Payroll System, built in Ruby, helps manage payroll by letting users set and update default settings, then generate daily and weekly salary reports based on employee work hours and day types. It accurately calculates regular, night shift, and overtime pay.",
     "skills": ["Ruby"],
-    "source": "https://www.github.com"
+    "source": "https://github.com/Shioxri/CSADPRG-MP"
   },
   {
     "title": "Culinary Class/Training Management Database App",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "The Culinary Class/Training Management project involves creating a database application to manage records of attendance, trainees, mentors, and training programs, along with supporting transactions for enrollment and trainee evaluations, and generating reports on trainee evaluations and payment status. Each module and report is assigned to a specific group member for development.",
     "skills": ["SQL", "Java", "HTML", "CSS"],
-    "source": "https://www.github.com"
+    "source": "https://github.com/Shioxri/CCINFOM-DB-App"
   },
   {
-    "title": "Sokobot - Puzzle Solver",
+    "title": "Java Sorting Algorithms",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This project evaluates the performance of Insertion Sort, Selection Sort, Merge Sort, and Quick Sort in Java, analyzing their complexity, efficiency, and sensitivity to different sample sizes, and presents the implementation process, experimental observations, and key findings supported by theoretical knowledge.",
     "skills": ["Java"],
-    "source": "https://www.github.com"
+    "source": "https://github.com/Shioxri/CCDSALG-MCO1"
   },
   {
-    "title": "Chatbot - Family Tree",
+    "title": "Java Social Connection Graphs",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Python", "Prolog"],
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Milk Quality Research",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Python"],
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "CCDSALG 1",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This project explores the social graph structure of Facebook networks from American colleges, using a dataset of 34,216 account IDs across five institutions.  A Java program was developed to identify account connections efficiently by utilizing a Hashmap for data storage and retrieval, and a Breadth-First Search (BFS) algorithm for traversing connections. ",
     "skills": ["Java"],
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "CCDSALG 2",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Java"],
-    "source": "https://www.github.com"
+    "source": "https://github.com/Shioxri/CCDSALG-MCO2"
   },
   {
     "title": "Simple Python Budget App",
