@@ -53,6 +53,19 @@
     text-align: center;
 }
 
+.contactBtn:hover, .downloadBtn:hover {
+    background-color: #2533d3; 
+    box-shadow: 0 0 8px 2px rgba(0,0,0,0.3); 
+    transform: translateY(-2px); 
+}
+
+.contactBtn:active, .downloadBtn:active {
+    background-color: #a3b0e7;
+    color: black;
+    transform: translateY(1px); 
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.2); 
+}
+
 .heroImg{
     width: 25%;
     z-index: 1;
