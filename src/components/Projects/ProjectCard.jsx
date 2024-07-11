@@ -5,36 +5,34 @@ import styles from "./ProjectCard.module.css"
 import { useRef, useEffect } from 'react';
 
 export const ProjectCard = ({project : {title, imageSrc, description, skills, source}}) => {
-  const titleRef = useRef(null);
-  const descRef = useRef(null);
-  const skillsRef = useRef(null);
+    const titleRef = useRef(null);
+    const descRef = useRef(null);
+    const skillsRef = useRef(null);
 
-  const handleScroll = (ref, event) => {
-    const delta = event.deltaY || event.deltaX; // Capture deltaY (vertical scroll) or deltaX (horizontal scroll)
-    ref.current.scrollLeft += delta/3; // Adjust scrollLeft or scrollTop based on the scroll direction
-    if (ref === descRef) {
-      ref.current.scrollTop += delta / 3;
-    }
-    event.preventDefault(); // Prevent default scroll behavior of the page
-  };
-
-  useEffect(() => {
-    const disableScroll = (event) => {
-      const target = event.target;
-      if (
-        (target === titleRef.current || target === descRef.current || target === skillsRef.current) ||
-        (target.parentElement === titleRef.current || target.parentElement === descRef.current || target.parentElement === skillsRef.current)
-      ){
-        event.preventDefault();
+    const handleScroll = (ref, event) => {
+      const delta = event.deltaY || event.deltaX;
+      ref.current.scrollLeft += delta / 3;
+      if (ref === descRef) {
+        ref.current.scrollTop += delta / 3;
       }
+      event.preventDefault();
     };
 
-    window.addEventListener('wheel', disableScroll, { passive: false }); // Listen for wheel events on the window
+    useEffect(() => {
+      const refs = [titleRef.current, descRef.current, skillsRef.current];
+      const disableScroll = (event) => {
+        if (refs.includes(event.target) || refs.includes(event.target.parentElement)) {
+          event.preventDefault();
+        }
+      };
 
-    return () => {
-      window.removeEventListener('wheel', disableScroll); // Clean up the event listener on component unmount
-    };
-  }, []);
+      window.addEventListener('wheel', disableScroll, { passive: false });
+
+      return () => {
+        window.removeEventListener('wheel', disableScroll);
+      };
+    }, []);
+    
   return (
     <div className={styles.container}>
       <img className={styles.image} src={getImageUrl(imageSrc)} alt={`Image of ${title}`} />
@@ -48,7 +46,7 @@ export const ProjectCard = ({project : {title, imageSrc, description, skills, so
         ))}
       </div>
       <div className={styles.links}>
-        <a className={styles.link} href={source}>Check it out!</a>
+        <a className={styles.link} href={source} target="_blank" rel="noopener noreferrer">Check it out!</a>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@
     margin-top: 80px;
     margin-left: 9%;
     margin-right: 9%;
+    text-align: center;
 }
 
 .title{
@@ -27,6 +28,7 @@
     display: flex;
     flex-wrap: wrap;
     gap:35px;
+    justify-content: center;
 }
 
 .skill{
@@ -52,6 +54,11 @@
     max-width: 75px !important;
     max-height: 75px !important;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.skillImgContainer:hover .skillImg {
+  transform: scale(1.2); 
 }
 
 .skill p{
