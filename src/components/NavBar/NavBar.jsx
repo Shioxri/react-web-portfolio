@@ -51,7 +51,7 @@ export const NavBar = () => {
                     alt="Menu-Button"
                 />
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
-                <li>
+                        <li>
                             <a href="#about" onClick={(e) => scrollToSection(e, '#about')}>About</a>
                         </li>
                         <li>

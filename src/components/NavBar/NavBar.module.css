@@ -9,7 +9,7 @@
     z-index: 2;
 
     padding: 30px 10%;
-    transition: all 0.2s ease-in; /* Smooth transition for position change */
+    transition: all 0.2s ease-in; 
  
 
 }
@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: 15px 10%; /* Adjust padding to create space */
+    padding: 15px 10%;
     margin: 0 0%;
    
 }
@@ -30,7 +30,13 @@
     font-size:40px;
     font-weight: 600;
     text-decoration: none;
-    color: var(--color-text)
+    color: var(--color-text);
+    transition: 0.2s ease-in-out;
+}
+
+.title:hover{
+    color: #afb2fb;
+    transform: scale(1.1);
 }
 
 .menu{
@@ -47,6 +53,10 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+}
+
+.menuItems li a:hover {
+    color: #afb2fb; 
 }
 
 .menuBtn{
