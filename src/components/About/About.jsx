@@ -38,14 +38,8 @@ export const About = () => {
               <li>BS Computer Science Major in Software Technology</li>
               <li>Sept. 2022 - Current</li>
               <li>Consistent Dean&apos;s Lister</li>
-              <li>3.5 CGPA</li>
+              <li>3.6 CGPA</li>
               <li>DOST MERIT Scholar</li>
-                  Organizations
-                  <ul className={styles.orgsList}>           
-                      <li>LSCS</li>
-                      <li>GAS</li>
-                      <li>NKK</li>
-                  </ul>
           </ul>
           </div>
           </li>
