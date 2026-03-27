@@ -19,11 +19,11 @@ export const Hero = () => {
             </p>
             <div className={styles.buttons}>
                 <a className={styles.contactBtn} href="mailto:gv.belardo@gmail.com">Contact Me</a>
-                <a className={styles.downloadBtn} href={getImageUrl("hero/GVB_Portfolio.pdf")} download="GVB's Portfolio.pdf"> Download CV</a>
+                <a className={styles.downloadBtn} href={getImageUrl("hero/GVB_Resume.pdf")} download="GVB's Resume.pdf"> Download CV</a>
             </div>
 
         </div>
-        <img className={styles.heroImg} src={getImageUrl("hero/heroImg.png")} alt="Profile Picture" />
+        <img className={styles.heroImg} src={getImageUrl("hero/heroNewImg.png")} alt="Profile Picture" />
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />
     </section>
